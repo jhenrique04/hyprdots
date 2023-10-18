@@ -5,7 +5,6 @@ pipewire-jack
 pipewire-media-session
 pipewire-pulse
 gst-plugin-pipewire
-wireplumber
 networkmanager
 network-manager-applet
 bluez
@@ -27,7 +26,6 @@ swaylock-effects-git
 python-pyamdgpuinfo
 jq
 wlogout
-grimblast
 slurp
 emote
 swappy
