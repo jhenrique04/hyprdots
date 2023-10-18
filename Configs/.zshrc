@@ -5,6 +5,9 @@
 #export ZSH="$HOME/.oh-my-zsh"
 ZSH=/usr/share/oh-my-zsh/
 
+# Activate Python Virtual Enviroment
+source ~/myenv/bin/activate
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -72,7 +75,8 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-extras git-flow command-not-found colorize sudo python pylint zsh-interactive-cd zsh-256color zsh-completions cd-ls )
+
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source $ZSH/oh-my-zsh.sh
@@ -123,7 +127,7 @@ alias vc='code'  # gui code editor
 #neofetch
 
 #Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+#pokemon-colorscripts --no-title -r 1,3,6
 
 #Display random gifs
-#kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
+kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
