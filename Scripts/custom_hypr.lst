@@ -7,6 +7,7 @@ pipewire-pulse
 gst-plugin-pipewire
 networkmanager
 network-manager-applet
+htop
 bluez
 bluez-utils
 blueman
