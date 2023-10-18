@@ -8,4 +8,4 @@
 0|Cyberpunk-Edge|~/.config/swww/Cyberpunk-Edge/david.jpg
 0|Frosted-Glass|~/.config/swww/Frosted-Glass/teal_mountain.png
 0|Gruvbox-Retro|~/.config/swww/Gruvbox-Retro/minimal_squares.png
-1|Pitch-Black|~/.config/swww/Pitch-Black/samurai_bebop.png
+1|Pitch-Black|~/.config/swww/Pitch-Black/648115.png
