@@ -23,9 +23,11 @@ rofi-lbonn-wayland-git
 waybar
 swww
 swaylock-effects-git
+python-pyamdgpuinfo
 jq
 wlogout
 slurp
+emote
 swappy
 cliphist
 polkit-kde-agent
