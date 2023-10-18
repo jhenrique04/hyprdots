@@ -5,6 +5,7 @@
 ScrDir=`dirname $(realpath $0)`
 source $ScrDir/globalcontrol.sh
 dcoDir="$HOME/.config/hypr/wallbash"
+
 input_wall=$1
 cacheImg=$(basename "${input_wall}")
 
@@ -40,8 +41,7 @@ do
         sed -i "s/<dcol_${i}>/${dcol[i]}/g" $HOME/$target
     done
 
-    if [ ! -z "$appexe" ] ; then
-        sh -c "ScrDir=`dirname $(realpath $0)` && $appexe"
-    fi
+    appexe=`eval echo $appexe`
+    $appexe
 done
 
