@@ -1,6 +1,7 @@
 Font_CascadiaCove|$HOME/.local/share/fonts
 Font_MaterialDesign|$HOME/.local/share/fonts
 Font_JetBrainsMono|$HOME/.local/share/fonts
+Font_Iosevka|$HOME/.local/share/fonts
 Font_MapleNerd|$HOME/.local/share/fonts
 Font_MononokiNerd|$HOME/.local/share/fonts
 Font_NotoSansCJK|/usr/share/fonts
@@ -22,6 +23,8 @@ Gtk_MaterialSakura|/usr/share/themes
 Gtk_MaterialSakura|$HOME/.themes
 Gtk_GraphiteMono|/usr/share/themes
 Gtk_GraphiteMono|$HOME/.themes
+Gtk_PitchBlack|/usr/share/themes
+Gtk_PitchBlack|$HOME/.themes
 Gtk_CyberpunkEdge|/usr/share/themes
 Gtk_CyberpunkEdge|$HOME/.themes
 Icon_TelaBlack|/usr/share/icons
