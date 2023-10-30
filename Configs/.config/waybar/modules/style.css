@@ -1,8 +1,8 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: "Terminus (TTF)";
-    font-weight: normal;
+    font-family: "Iosevka";
+    font-weight: bold;
     font-size: ${s_fontpx}px;
     min-height: 10px;
 }
