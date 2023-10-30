@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0px;
     font-family: "Iosevka";
-    font-weight: bold;
+    font-weight: normal;
     font-size: ${s_fontpx}px;
     min-height: 10px;
 }
